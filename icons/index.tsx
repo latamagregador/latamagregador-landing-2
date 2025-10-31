@@ -1,0 +1,5 @@
+import React from 'react'
+export const IconEngine=(p:any)=>(<svg width="28" height="28" viewBox="0 0 24 24" {...p}><g fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9" opacity=".9"/><path d="M12 3v9h9"/><circle cx="12" cy="12" r="2" fill="currentColor"/></g></svg>)
+export const IconOdds=(p:any)=>(<svg width="28" height="28" viewBox="0 0 24 24" {...p}><g fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 17l5-5l4 4l7-7"/><circle cx="8" cy="12" r="2"/><circle cx="12" cy="16" r="2"/><circle cx="19" cy="9" r="2"/></g></svg>)
+export const IconHub=(p:any)=>(<svg width="28" height="28" viewBox="0 0 24 24" {...p}><g fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v7M12 22v-7M2 12h7M22 12h-7"/></g></svg>)
+export const IconPartner=(p:any)=>(<svg width="28" height="28" viewBox="0 0 24 24" {...p}><g fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0"/><path d="M9 12l2 2l4 -4"/></g></svg>)

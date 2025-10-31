@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LATAM Agregador Casino — Enterprise</title>
+    <meta
+      name="description"
+      content="Conectamos LATAM con la innovación global del iGaming. Plataforma empresarial con arquitectura modular, APIs seguras y automatización avanzada."
+    />
+
+    <!-- 🌟 Hotfix visual profesional -->
+    <style id="contrast-hotfix">
+      :root {
+        --text-strong: #0f172a; /* gris casi negro */
+        --text-muted: #334155; /* gris intermedio */
+      }
+
+      /* Fondo principal y texto legible */
+      html,
+      body,
+      #root {
+        min-height: 100%;
+        background: #ffffff !important;
+        color: var(--text-strong);
+        font-family: "Inter", system-ui, -apple-system, sans-serif;
+      }
+
+      /* Anular cualquier overlay o capa blanca */
+      .overlay,
+      .hero-overlay,
+      .hero:after,
+      .section-overlay,
+      [data-overlay] {
+        display: none !important;
+      }
+
+      /* Forzar visibilidad de todo */
+      [class*="opacity"],
+      [style*="opacity"] {
+        opacity: 1 !important;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      span,
+      small,
+      li,
+      dt,
+      dd,
+      div {
+        color: var(--text-strong) !important;
+      }
+
+      /* Cartas, bloques o secciones en fondo blanco */
+      .glass,
+      .card,
+      .tile,
+      .feature-card,
+      .provider-card {
+        background: #ffffff !important;
+        border: 1px solid rgba(15, 23, 42, 0.08) !important;
+        box-shadow: 0 10px 30px rgba(2, 6, 23, 0.08) !important;
+        backdrop-filter: none !important;
+      }
+
+      /* Logos e imágenes nítidas */
+      .provider-card img,
+      .provider-logo,
+      .providers img,
+      img,
+      svg {
+        opacity: 1 !important;
+        filter: none !important;
+        mix-blend-mode: normal !important;
+      }
+
+      /* Botones */
+      .btn,
+      button {
+        color: #0f172a !important;
+        font-weight: 500;
+      }
+
+      .btn:hover,
+      button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 12px 24px rgba(2, 6, 23, 0.1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
